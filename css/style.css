@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: gray;
+}
+#road{
+    position: relative;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background: #000;
+    overflow: hidden;
+}
+#my_car{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 64px;
+    z-index: 999;
+    height: 131px;
+    background-image: url("../img/car1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#car_2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 64px;
+    z-index: 999;
+    height: 131px;
+    background-image: url("../img/car2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#road>section{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 9px;
+    height: 40px;
+    background: #fff;
+    margin: auto;
+}
